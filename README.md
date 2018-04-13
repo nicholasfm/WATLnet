@@ -151,10 +151,8 @@ The whole process looks like this:
 
 
 Sense Hat :
-![alt text](https://github.com/nicholasfm/WATLnet/blob/master/images/pins.png "Text")
-- The Sense-Hat is made to be simple and use by kids..
-- The easy way to connect it to the Pi is to plug it right in top of it but this solution uses all the GPIO and we need some room for the other sensors.
-- The GPIO pins that have to be linked to the Sense-Hat are coloured in red : 15 connections
+
+The Sense-Hat is made to be simple and use by kids. The easy way to connect it to the Pi is to plug it right in top of it but this solution uses all the GPIO and we need some room for the other sensors. The GPIO pins that have to be linked to the Sense-Hat are coloured in red : 15 connections ![alt text](https://github.com/nicholasfm/WATLnet/blob/master/images/pins.png "Text") 
 
 
 ## Windvane Setup : Davis Anemometer 7911

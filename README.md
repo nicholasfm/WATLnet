@@ -142,16 +142,16 @@ You can see on the last line of the code that I call the `Master.sh` code.
 `Timers` scripts : Each Timer runs a code in a loop. Therefore, to change the frequency of an action, you just need to modify this code. Keep in mind that the internal clock of the Raspberry is not perfect, and that you have time drifting. As the Timers codes call the internal time, the loops can be delayed as time drifts. To prevent time drifting from the internal clock of the Raspberry, an option is to use a Real Time Clock, an external device that you connect to the Raspberry, and the Raspberry will import this time instead of its own internal time.
 
 The whole process looks like this:
-![alt text](https://github.com/nicholasfm/WATLnet/images/Workflow.png "Text")
+![alt text](https://github.com/nicholasfm/WATLnet/blob/master/images/Workflow.png "Text")
 
 
 ## Connecting the sensors
 
-![alt text](https://github.com/nicholasfm/WATLnet/images/Pi_GPIO.png "Text")
+![alt text](https://github.com/nicholasfm/WATLnet/blob/master/images/Pi_GPIO.png "Text")
 
 
 Sense Hat :
-![alt text](https://github.com/nicholasfm/WATLnet/images/pins "Text")
+![alt text](https://github.com/nicholasfm/WATLnet/blob/master/images/pins "Text")
 - The Sense-Hat is made to be simple and use by kids..
 - The easy way to connect it to the Pi is to plug it right in top of it but this solution uses all the GPIO and we need some room for the other sensors.
 - The GPIO pins that have to be linked to the Sense-Hat are coloured in red : 15 connections
@@ -164,7 +164,7 @@ The wind speed output is easy to process using the Raspberry Pi because it gives
 
 The wind direction has an analogic output and so need a A/D converter to be read by the Pi. The converter we use is a MCP3008 with a 10-bit resolution using the SPI serial interface available on the Pi. The wiring of this converter goes like this:
 
-![alt text](https://github.com/nicholasfm/WATLnet/images/windvein.png "Text")
+![alt text](https://github.com/nicholasfm/WATLnet/blob/master/images/windvein.png "Text")
 
 6 GPIO pins are used by the converter and the green cable from the anemometer can be plugged to any of the 7 channels.
 You will see the wind direction going from 0 to 1023, and so easily convert it to degrees and cardinals.
